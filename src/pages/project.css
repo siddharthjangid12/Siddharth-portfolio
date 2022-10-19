@@ -1,0 +1,84 @@
+.project-section{
+    height: 180vh;
+    width: 100%;
+}
+.project-section h2{
+    color: black;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+}
+.project-section h2::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #8490ff;
+    border-radius: 50%;
+}
+.project-section h2::after{
+    content: "";
+    position: absolute;
+    top: 132%;
+    left: 0.7rem;
+    height: 0.2rem;
+    width: 7rem;
+    background-color: #8490ff;
+}
+.project-image{
+    height: 80%;
+    width: 100%;
+    border: 2px solid #8490ff;
+    border-radius: 1rem;
+    margin-top: -0.5rem;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 3rem 3rem;
+    gap: 3rem;
+}
+.project-list-data-1{
+    background-color: #5F9DF7;
+    color: white;
+    padding: 2rem 1rem;
+    transition: 0.2s ease-in-out;
+}
+.project-list-data-1:hover{
+    transform: scale(0.95);
+}
+.project-list-data-2{
+    background-color: #E94560;
+    color: white;
+    padding: 2rem 1rem;
+    transition: 0.2s ease-in-out;
+}
+.project-list-data-2:hover{
+    transform: scale(0.95);
+}
+.project-list h3{
+    font-size: 1.2rem;
+    margin-left: 7.3rem;
+    margin-bottom: 2rem;
+}
+.project-list a{
+    font-size: 1rem;
+    text-decoration: none;
+    background-color: white;
+    color: #8490ff;
+    padding: 0.6rem 0.6rem;
+    margin-right: 1rem;
+}
+.project-list a:hover{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+.link{
+    margin-left: 9rem;
+}

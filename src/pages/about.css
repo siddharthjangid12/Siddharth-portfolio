@@ -1,0 +1,231 @@
+.about-section{
+    height: 190vh;
+    width: 100%;
+}
+.about-image{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+   margin-left: 35rem;
+   margin-bottom: 0.4rem;
+   border: 2px solid white;
+}
+.about-data{
+    background-color: #8490ff;
+    padding: 2rem 1rem;
+    margin-top: 3rem;
+}
+.about-data h2{
+    margin-left: 31rem;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 0.9rem;
+}
+.about-data p{
+    max-width: 29rem;
+    text-align: center;
+    font-size: 0.9rem;
+    margin-left: 25rem;
+    color: white;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+}
+.about-section h3{
+    color: black;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 5rem;
+    margin-top: 3rem;
+}
+.about-section h3::before{
+    content: "";
+    position: absolute;
+    top: 120%;
+    left: 0;
+    height: 0.8rem;
+    width: 0.8rem;
+    background-color: #8490ff;
+    border-radius: 50%;
+}
+.about-section h3::after{
+    content: "";
+    position: absolute;
+    top: 132%;
+    left: 0.7rem;
+    height: 0.2rem;
+    width: 7rem;
+    background-color: #8490ff;
+}
+.about-section-data{
+    display: flex;
+    flex-direction: column;
+    margin-left: 25rem;
+    margin-top: 8rem;
+    gap: 1rem;
+    position: relative;
+}
+.about-progress-bar{
+    position: relative;
+    margin-bottom: 1rem;
+}
+.about-progress-bar::before{
+  content: "";
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  height: 0.4rem;
+  width: 30rem;
+  background-color: #B2B2B2;
+  border-radius: 10vh;
+}
+.about-progress-bar::after{
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    height: 0.4rem;
+    width: 25rem;
+   background-color: #8490ff;
+  }
+  .about-progress-bar-2{
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .about-progress-bar-2::before{
+    content: "";
+    position: absolute;
+    top: -0.5rem;
+    left: 0;
+    height: 0.4rem;
+    width: 30rem;
+    background-color: #B2B2B2;
+    border-radius: 10vh;
+  }
+  .about-progress-bar-2::after{
+      content: "";
+      position: absolute;
+      top: -0.5rem;
+      left: 0;
+      height: 0.4rem;
+      width: 22rem;
+     background-color: #8490ff;
+    }
+
+    .about-progress-bar-3{
+        position: relative;
+        margin-bottom: 1rem;
+      }
+    
+      .about-progress-bar-3::before{
+        content: "";
+        position: absolute;
+        top: -0.5rem;
+        left: 0;
+        height: 0.4rem;
+        width: 30rem;
+        background-color: #B2B2B2;
+        border-radius: 10vh;
+      }
+      .about-progress-bar-3::after{
+          content: "";
+          position: absolute;
+          top: -0.5rem;
+          left: 0;
+          height: 0.4rem;
+          width: 20rem;
+         background-color: #8490ff;
+        }
+
+        .about-progress-bar-4{
+            position: relative;
+            margin-bottom: 1rem;
+          }
+        
+          .about-progress-bar-4::before{
+            content: "";
+            position: absolute;
+            top: -0.5rem;
+            left: 0;
+            height: 0.4rem;
+            width: 30rem;
+            background-color: #B2B2B2;
+            border-radius: 10vh;
+          }
+          .about-progress-bar-4::after{
+              content: "";
+              position: absolute;
+              top: -0.5rem;
+              left: 0;
+              height: 0.4rem;
+              width: 28rem;
+             background-color: #8490ff;
+            }
+
+            .about-progress-bar-5{
+                position: relative;
+                margin-bottom: 1rem;
+              }
+            
+              .about-progress-bar-5::before{
+                content: "";
+                position: absolute;
+                top: -0.5rem;
+                left: 0;
+                height: 0.4rem;
+                width: 30rem;
+                background-color: #B2B2B2;
+                border-radius: 10vh;
+              }
+              .about-progress-bar-5::after{
+                  content: "";
+                  position: absolute;
+                  top: -0.5rem;
+                  left: 0;
+                  height: 0.4rem;
+                  width: 17rem;
+                 background-color: #8490ff;
+                }
+            .about-section-data span{
+              position: absolute;
+              height: 2rem;
+              width: 3.8rem;
+              background-color: #8490ff;
+              color: white;
+              padding-left: 1.1rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              outline: 0;
+              border: none;
+              margin-top: 0.5rem;
+              margin-bottom: 2rem;
+            }
+            .about-progress-bar span{
+                left: 22.8rem;
+            }
+            .about-progress-bar-2 span{
+                left: 19.8rem;
+            }
+            .about-progress-bar-3 span{
+                left: 17.8rem;
+            }
+            .about-progress-bar-4 span{
+                left: 25.8rem;
+            }
+            .about-progress-bar-5 span{
+                left: 14.8rem;
+            }
+            .about-section-data span::after{
+                content: "";
+                position: absolute;
+                 top: -1rem;
+                 left: 1.9rem;
+                width: 0.2rem;
+                height: 1rem;
+                background-color: #8490ff;
+                border: 0.8px solid #8490ff;
+            }

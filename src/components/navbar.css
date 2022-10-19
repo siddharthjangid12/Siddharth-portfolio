@@ -1,0 +1,16 @@
+.navbar-list{
+    display: flex;
+    gap: 2.5rem;
+    list-style: none;
+}
+.navbar-icons{
+    font-size: 1rem;
+    font-weight: lighter;
+    color: #777777;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+.navbar-icons:hover{
+    color: #8490ff;
+    transform: scale(1.3);
+}
